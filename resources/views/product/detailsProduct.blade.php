@@ -14,7 +14,7 @@
     <div style="padding-left: 50px;">
         <h1>Show Product</h1>
         <p><strong>Name:</strong>&nbsp{{$product['name']}}</p> </br>
-        <p><strong>Price (RM):</strong>&nbsp{{$product['price']}}</p> </br>
+        <p><strong>Price :</strong>&nbspRM{{$product['price']}}</p> </br>
         <p><strong>Detail:</strong>&nbsp{{$product['details']}}</p></br>
         <p><strong>Published:</strong>
 
