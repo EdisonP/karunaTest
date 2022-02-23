@@ -20,11 +20,11 @@
         <form method="post" action="create">
             @csrf
             <strong>Name:</strong></br>
-            <input style="width: 50%;" type="text" name="name" placeholder="Enter Name!"></br></br>
+            <input style="width: 50%;" type="text" name="name" placeholder="Name"></br></br>
             <strong>Price (RM):</strong></br>
-            <input style="width: 50%" type="number" name="price" min="0" step='any' placeholder="Enter Price!"></br></br>
+            <input style="width: 50%" type="number" name="price" min="0" step='any' placeholder="99.00"></br></br>
             <strong>Detail:</strong></br>
-            <textarea style="width: 50%" name="details" rows='5' placeholder="Enter Details!"></textarea></br></br>
+            <textarea style="width: 50%" name="details" rows='5' placeholder="Details"></textarea></br></br>
             <strong>Publish</strong></br>
 
             <input type="radio" id="published1" name="published" value="0" checked>
