@@ -19,10 +19,10 @@
     <div style="padding-left: 50px;">
         <form method="post" action="create">
             @csrf
-            <strong>Name:</strong></br>
-            <input style="width: 50%;" type="text" name="name" placeholder="Name"></br></br>
-            <strong>Price (RM):</strong></br>
-            <input style="width: 50%" type="number" name="price" min="0" step='any' placeholder="99.00"></br></br>
+            <strong>Name*:</strong></br>
+            <input style="width: 50%;" type="text" name="name" placeholder="Name" required></br></br>
+            <strong>Price (RM)*:</strong></br>
+            <input style="width: 50%" type="number" name="price" min="0" step='any' placeholder="99.00" required></br></br>
             <strong>Detail:</strong></br>
             <textarea style="width: 50%" name="details" rows='5' placeholder="Details"></textarea></br></br>
             <strong>Publish</strong></br>
